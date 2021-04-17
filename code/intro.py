@@ -25,7 +25,7 @@ while True:
             sys.exit()
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_q:
-                pprint('Press down Q key to quit.')
+                print('Press down Q key to quit.')
                 sys.exit()
 
     # ballrect.top += 1
